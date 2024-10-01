@@ -3,67 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stunning Landing Page</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Task-4</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <nav>
-            <div class="logo">MyBrand</div>
-            <ul class="nav-links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Optimize</a></li>
+                <li><a href="#">Publishing Options</a></li>
             </ul>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
         </nav>
     </header>
-
-    <main>
-        <section id="hero" class="hero">
-            <div class="hero-content">
-                <h1>Unlock Your Potential</h1>
-                <p>Join us on a journey of growth and discovery.</p>
-                <a href="#services" class="cta-btn">Get Started</a>
-            </div>
+    <div class="content-wrapper">
+        <section class="content-left">
+            <h1>5 Ways to Build a Website on the Cheap</h1>
+            <h2>What's Inside?</h2>
+            <p>
+                In this guide, you'll discover five practical and cost-effective methods to build a professional website without breaking the bank. We cover everything from using free website builders to leveraging affordable hosting solutions. You'll also learn essential design tips to make your site look polished without needing expensive tools.
+            </p>
+            <p>
+                Whether you're a small business owner, freelancer, or someone looking to create a personal site, these strategies will help you get started with minimal investment. With step-by-step instructions and resource recommendations, building a website has never been easier.
+            </p>
+            <ul>
+                <li>How to choose a free website builder that suits your needs</li>
+                <li>Key design principles for creating a professional look on a budget</li>
+                <li>Where to find affordable domain names and hosting services</li>
+                <li>Tips for optimizing your website for speed and performance</li>
+                <li>Free tools and plugins to enhance the functionality of your site</li>
+            </ul>
         </section>
+        <section class="content-right">
+            <h3>Send me the ebook!</h3>
+            <form action="#">
+                <label for="email">Email*</label>
+                <input type="email" id="email" placeholder="Enter your email">
 
-        <section id="services" class="services">
-            <h2>Our Services</h2>
-            <div class="service-container">
-                <div class="service-card">
-                    <i class="fas fa-laptop-code icon"></i>
-                    <h3>Web Development</h3>
-                    <p>Crafting responsive and stunning websites tailored for your needs.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-mobile-alt icon"></i>
-                    <h3>Mobile Apps</h3>
-                    <p>Developing intuitive mobile applications for all platforms.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-cloud icon"></i>
-                    <h3>Cloud Services</h3>
-                    <p>Providing reliable and scalable cloud solutions for your business.</p>
-                </div>
-            </div>
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" placeholder="Enter your first name">
+
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name" placeholder="Enter your last name">
+
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Enter your message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
         </section>
-    </main>
-
-    <footer class="footer" id="contact">
-        <p>Contact Us: info@mybrand.com</p>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Contact us: Innomatics@gmail.com | Phone: 1800-8008-00</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
         </div>
-        <p>&copy; 2024 MyBrand. All rights reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
