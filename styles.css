@@ -7,11 +7,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #f0f4f8;
+    background-color: rgb(240, 244, 248);
 }
 
 header {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -29,12 +29,12 @@ nav .nav-list li {
 
 nav .nav-list li a {
     text-decoration: none;
-    color: #1e3a8a;
+    color: rgb(30, 58, 138);
     font-weight: 700;
 }
 
 nav .nav-list li a:hover {
-    color: #3f83f8;
+    color: rgb(63, 131, 248);
 }
 
 .content-wrapper {
@@ -51,7 +51,7 @@ nav .nav-list li a:hover {
 
 .content-left h1 {
     font-size: 2.5rem;
-    color: #1e3a8a;
+    color: rgb(30, 58, 138);
     margin-bottom: 1rem;
 }
 
@@ -63,7 +63,7 @@ nav .nav-list li a:hover {
 .content-left p {
     font-size: 1rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
 .content-left ul {
@@ -75,12 +75,12 @@ nav .nav-list li a:hover {
 .content-left ul li {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    color: #666;
+    color: rgb(102, 102, 102);
 }
 
 .content-right {
-    background-color: #1e3a8a;
-    color: #fff;
+    background-color: rgb(30, 58, 138);
+    color: rgb(255, 255, 255);
     padding: 2rem;
     width: 30%;
     border-radius: 8px;
@@ -89,7 +89,7 @@ nav .nav-list li a:hover {
 .content-right h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 form {
@@ -115,7 +115,7 @@ form textarea {
 }
 
 form button {
-    background-color: #28a745;
+    background-color: rgb(40, 167, 69);
     color: white;
     padding: 1rem;
     border: none;
@@ -124,12 +124,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #218838;
+    background-color: rgb(33, 136, 56);
 }
 
 footer {
-    background-color: #1e3a8a;
-    color: #fff;
+    background-color: rgb(30, 58, 138);
+    color: rgb(255, 255, 255);
     padding: 1rem;
     text-align: center;
 }
@@ -151,11 +151,11 @@ footer .social-icons {
 footer .social-icon {
     font-size: 1.5rem;
     margin: 0 1rem;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 footer .social-icon:hover {
-    color: #3f83f8; 
+    color: rgb(63, 131, 248); 
 }
