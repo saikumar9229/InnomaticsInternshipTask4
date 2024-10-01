@@ -127,7 +127,6 @@ form button:hover {
     background-color: #218838;
 }
 
-/* Footer styles */
 footer {
     background-color: #1e3a8a;
     color: #fff;
@@ -158,5 +157,5 @@ footer .social-icon {
 }
 
 footer .social-icon:hover {
-    color: #3f83f8; /* Change color on hover */
+    color: #3f83f8; 
 }
